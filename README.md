@@ -1,4 +1,7 @@
 # Image Classification using TensorFlow: Web UI and Flask API for Automatic Image Categorization
+
+![Alt text](System_architecture_diagram.png)
+
 <p align="justify">
 Imagine that you work for a company that has a large collection of images and needs to automatically classify them into different categories. This task can be time-consuming and error-prone when done manually by human workers.
 </p>
@@ -7,10 +10,11 @@ Imagine that you work for a company that has a large collection of images and ne
 Your task is develop a solution that can automatically classify images into over 1000 different categories using a Convolutional Neural Network (CNN) implemented in Tensorflow. Your solution will consist of a Web UI and a Python Flask API that serves the CNN.
 </p>
 
-
 <p align="justify">
 The Web UI should allow users to upload an image and receive the predicted class for that image. The Python Flask API should receive the uploaded image, preprocess it (e.g. resize, normalize), feed it into the CNN, and return the predicted class as a JSON object. The API should handle errors gracefully and provide informative error messages to the UI if something goes wrong.
 </p>
+
+
 
 The technologies involved are:
 - Docker
